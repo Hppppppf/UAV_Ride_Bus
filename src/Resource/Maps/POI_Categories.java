@@ -1,9 +1,9 @@
 package Resource.Maps;
 
 /**
- * @Author: Hppppppf
- * @Date: 2022/3/18 14:25
- * @Description:
+ * @author Hppppppf
+ * @date 2022/3/18 14:25
+ * @description
  */
 public enum POI_Categories {
     Cat1,//PoI where video-surveillance is needed

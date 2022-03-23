@@ -6,13 +6,13 @@ import Resource.TimeSlot;
 import java.util.HashMap;
 
 /**
- * @Author: Hppppppf
- * @Date: 2022/3/18 13:47
- * @Description:
+ * @author Hppppppf
+ * @date 2022/3/18 13:47
+ * @description
  */
 public class UAV {
     String ID;
-    UAV_Status stats;
-    HashMap<TimeSlot, Position> UAVPosition;
-    Integer energy;
+    UAV_Status status;
+    Position position;
+    Double energy;
 }

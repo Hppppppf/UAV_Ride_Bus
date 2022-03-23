@@ -5,9 +5,9 @@ import Resource.TimeSlot;
 import java.util.List;
 
 /**
- * @Author: Hppppppf
- * @Date: 2022/3/18 15:26
- * @Description:
+ * @author Hppppppf
+ * @date 2022/3/18 15:26
+ * @description
  */
 public class Map {
     List<AP> APList;

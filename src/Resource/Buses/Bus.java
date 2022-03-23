@@ -6,11 +6,11 @@ import Resource.TimeSlot;
 import java.util.HashMap;
 
 /**
- * @Author: Hppppppf
- * @Date: 2022/3/18 13:47
- * @Description:
+ * @author Hppppppf
+ * @date 2022/3/18 13:47
+ * @description
  */
 public class Bus {
     String ID;
-    HashMap<TimeSlot, Position> BusPosition;
+    Position position;
 }

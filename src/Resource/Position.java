@@ -1,12 +1,12 @@
 package Resource;
 
 /**
- * @Author: Hppppppf
- * @Date: 2022/3/18 14:33
- * @Description:
+ * @author Hppppppf
+ * @date 2022/3/18 14:33
+ * @description
  */
 public class Position {
-    int x;
-    int y;
-    int z;//TODO 是否需要高度？
+    double x;
+    double y;
+    double z;
 }
