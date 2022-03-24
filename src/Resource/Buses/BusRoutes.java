@@ -1,5 +1,6 @@
 package Resource.Buses;
 
+import Resource.Maps.BusStop;
 import Resource.Position;
 import Resource.TimeSlot;
 
@@ -13,5 +14,6 @@ import java.util.List;
  */
 public class BusRoutes {
     List<Bus> buses;//可能存在一条线路多辆车
-    HashMap<TimeSlot, Position> busRouteTable;//TODO 如何表现到站？
+    HashMap<TimeSlot, Position> busRouteTable;
+    List<BusStop> busStops;//路线上经停的车站
 }
